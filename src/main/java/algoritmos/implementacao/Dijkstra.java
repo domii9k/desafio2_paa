@@ -24,7 +24,7 @@ public class Dijkstra<T> {
         while (!naoVisitados.isEmpty()) {
             Node<T> noAtual = naoVisitados.poll();
 
-            // se o nó já foi visitado, éignorado
+            // se o nó já foi visitado, é ignorado
             if (visitados.contains(noAtual)) {
                 continue;
             }

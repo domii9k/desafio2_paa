@@ -12,7 +12,7 @@ public class Main {
         try {
 
             // foi necessário incluir o caminho completo do arquivo
-            File file = new File("C:/Users/User/Documents/Desafio2PAA/src/main/java/grafos/usa-road-ny.gr");
+            File file = new File("C:/Users/User/Documents/Desafio2PAA/src/main/java/grafos/usa-road-bay.gr");
             Grafo grafo = LerGrafo.lerGrafo(file);
 
             System.out.println("GRAFO");
